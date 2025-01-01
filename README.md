@@ -19,3 +19,4 @@ pandas 설치:
 terminal에 다음을 입력
 
 pip3 install pandas
+
