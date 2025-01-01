@@ -4,6 +4,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+# 검색할 키워드 입력
+
+query = input('검색할 키워드를 입력하세요: ')
+
+
 # 크롬드라이버 실행
 driver = webdriver.Chrome()
 
@@ -19,7 +24,7 @@ try:
     # 검색어 입력 및 엔터
     # 'send_keys'는 Selenium의 입력 동작 메서드, 텍스트 입력 필드(input)이나 기타 입력 가능한 요소에 키 입력(텍스트, 키보드 이벤트)을 시뮬레이션하는 데 사용
 
-    search_box.send_keys('파이썬')
+    search_box.send_keys(query)
     search_box.send_keys(Keys.RETURN)
 
     # 검색 결과가 로드될 때까지 대기 (최대 10초)
