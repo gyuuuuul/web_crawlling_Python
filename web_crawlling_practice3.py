@@ -22,7 +22,7 @@ html_text = response.text
 
 soup = bs(response.text, 'html.parser')
 
-# 6. 'soup' 결과 출력 및 검색결과 html 출력
+# 6. 'soup' 결과 출력 및 검색결과 html 출력. prettify()가 꼭 필요함. soup라는 객체를 string으로 변환하는 함수임.
 print(soup.prettify())
 
 with open('%s.html' %query, 'w', encoding='utf-8') as file:
