@@ -1,72 +1,86 @@
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from bs4 import BeautifulSoup
-import pandas as pd
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
+from bs4 import BeautifulSoup
 
-# 키워드 및 크롤링 설정
-Keyword = input('1. 수집 검색어는 무엇입니까?: ')
-ArticleNum = int(input('2. 몇 건을 수집하시겠습니까?: '))
-
-# 저장 파일 설정
-ft_name = input('3.결과를 저장할 txt형식의 파일명을 쓰세요(예: 파일명.txt): ')
-fx_name = input('4.결과를 저장할 xlsx형식의 파일명을 쓰세요(예: 파일명.xlsx): ')
+# 검색할 키워드 입력
+query = input('검색할 키워드를 입력하세요: ')
+Search_Num = int(input('검색할 url 개수를 입력하세요: '))
 
 # Selenium 초기 설정
 options = webdriver.ChromeOptions()
 options.add_argument('start-maximized')
 driver = webdriver.Chrome(options=options)
-driver.implicitly_wait(5) 
+driver.implicitly_wait(5)
 
-# 네이버 뉴스 페이지 열기
-driver.get('https://www.naver.com/')
-driver.find_element(By.ID, 'query').send_keys(Keyword + '\n')
-driver.find_element(By.LINK_TEXT, '뉴스').click()
-
-# 결과 저장 리스트 초기화
-sn2 = []
-title2 = []
-url2 = []
+# 기사 제목 저장 리스트 및 번호 초기화
+search_result = []
 no = 1
 
-print("데이터 수집을 시작합니다...")
+try:
+    # 구글 페이지 열기
+    driver.get("https://www.google.com/")
 
-# 스크롤 반복
-while len(title2) < ArticleNum:
-    # 현재 페이지 파싱
-    html = driver.page_source
-    soup = BeautifulSoup(html, 'html.parser')
-    articles = soup.select('div > a.news_tit')
+    # 검색창에 키워드 입력 후 실행
+    search_box = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.NAME, 'q'))
+    )
+    search_box.send_keys(query)
+    search_box.send_keys(Keys.RETURN)
 
-    # 기사 수집
-    for article in articles:
-        if no > ArticleNum:
-            break
+    # 페이지 탐색 시작
+    while no <= Search_Num:
+        # 현재 페이지 파싱
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        # 모든 h3 태그 선택 (구글 검색 결과 제목)
+        titles = soup.select('h3')  # 구글 검색 결과에서 h3 태그 선택
+
+        # 데이터 수집
+        for title in titles:
+            if no > Search_Num:
+                break
+            try:
+                # h3 태그의 부모 a 태그에서 URL 추출
+                parent_a = title.find_parent('a')
+                if parent_a:
+                    title_text = title.text.strip()
+                    url = parent_a['href']
+                else:
+                    continue
+            except Exception as e:
+                print(f"오류 발생: {e}")
+                continue
+
+            # 중복 확인 후 추가
+            if url in [item['url'] for item in search_result]:
+                continue
+
+            search_result.append({"title": title_text, "url": url})
+            print(f"{no}. {title_text}: {url}")
+            no += 1
+
+        # 다음 페이지로 이동
         try:
-            title = article.text
-            url = article['href']
-        except:
-            continue
+            next_button = driver.find_element(By.CSS_SELECTOR, 'a[aria-label="다음 페이지"]')
+            next_button.click()
+            time.sleep(2)  # 페이지 로드 대기
+        except Exception as e:
+            print("다음 페이지가 없습니다.")
+            break
 
-        # 데이터 저장
-        sn2.append(no)
-        title2.append(title)
-        url2.append(url)
+    print("데이터 수집이 완료되었습니다!")
 
-        with open(ft_name, 'a', encoding='utf-8') as f:
-            f.write(f"1. 연번: {no}\n2. 기사 제목: {title}\n3. 링크: {url}\n\n")
+finally:
+    # 브라우저 종료
+    driver.quit()
 
-        print(f"1. 연번: {no}\n2. 기사 제목: {title}\n3. 링크: {url}\n")
-        no += 1
-
-    # 스크롤 내리기
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    time.sleep(2)  # 데이터 로드 대기
-
-print("데이터 수집이 완료되었습니다!")
-
-# Pandas DataFrame 저장
-df = pd.DataFrame({'연번': sn2, '기사 제목': title2, '링크': url2})
-df.to_excel(fx_name, index=False, sheet_name='뉴스 기사')
-
-driver.quit()
+# 결과 출력
+if search_result:
+    print(f"총 {len(search_result)}개의 데이터를 수집했습니다.")
+else:
+    print("수집된 데이터가 없습니다. 검색어나 구조를 확인하세요.")
