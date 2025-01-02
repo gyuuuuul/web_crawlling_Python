@@ -55,7 +55,7 @@ while len(title2) < ArticleNum:
 
     # 현재 페이지 파싱
     html = driver.page_source
-    soup = BeautifulSoup(html, 'html.parser')
+    soup = BeautifulSoup(html, 'lxml')
     articles = soup.select('div.tF2Cxc')  # 구글 검색 결과 블록
 
     print(f"검색 결과 블록 수: {len(articles)}")  # 블록 수 확인
@@ -95,10 +95,6 @@ while len(title2) < ArticleNum:
             site_name_tag = article.select_one('span.VuuXrf')
             site_name = site_name_tag.text.strip() if site_name_tag else "사이트 이름 없음"
 
-            # 중복 데이터 방지
-            if url in url2:
-                continue
-
             # 데이터 저장
             sn2.append(len(title2) + 1)
             title2.append(title)
@@ -125,7 +121,7 @@ while len(title2) < ArticleNum:
     try:
         next_button = driver.find_element(By.ID, "pnnext")
         next_button.click()
-        time.sleep(2)  # 페이지 로드 대기
+        time.sleep(1)  # 페이지 로드 대기
     except:
         print("더 이상 페이지가 없습니다.")
         break
