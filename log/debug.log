@@ -1,0 +1,1687 @@
+[2025-01-04 20:04:52,569][ERROR|DART_crawlling_test1.py:51] >> Error fetching company code: list index out of range
+[2025-01-04 20:08:30,243][ERROR|DART_crawlling_test1.py:51] >> Error fetching company code: list index out of range
+[2025-01-04 20:08:30,243][WARNING|DART_crawlling_test1.py:148] >> No results found for company name: �Ｚ����
+[2025-01-04 20:09:34,956][ERROR|DART_crawlling_test1.py:51] >> Error fetching company code: list index out of range
+[2025-01-04 20:09:34,957][WARNING|DART_crawlling_test1.py:148] >> No results found for company name: �Ｚ����
+[2025-01-04 20:13:18,520][DEBUG|DART_crawlling_test1.py:41] >> Constructed URL: http://dart.fss.or.kr/dsae001/search.ax?textCrpNm=�Ｚ����
+[2025-01-04 20:13:18,678][DEBUG|DART_crawlling_test1.py:45] >> Response status code: 200
+[2025-01-04 20:13:18,684][ERROR|DART_crawlling_test1.py:78] >> Error fetching company code: list index out of range
+[2025-01-04 20:13:18,685][WARNING|DART_crawlling_test1.py:177] >> No results found for company name: �Ｚ����
+[2025-01-04 20:15:07,267][DEBUG|DART_crawlling_test1.py:44] >> Constructed URL: http://dart.fss.or.kr/dsae001/search.ax?textCrpNm=�Ｚ����
+[2025-01-04 20:15:07,423][DEBUG|DART_crawlling_test1.py:48] >> Response status code: 200
+[2025-01-04 20:15:07,426][INFO|DART_crawlling_test1.py:182] >> Found company: �Ｚ���� (00126380)
+[2025-01-04 20:15:07,426][INFO|DART_crawlling_test1.py:182] >> Found company: �Ｚ���ڷ����� (00366997)
+[2025-01-04 20:15:07,427][INFO|DART_crawlling_test1.py:182] >> Found company: �Ｚ���ڼ��� (00258999)
+[2025-01-04 20:15:07,427][INFO|DART_crawlling_test1.py:182] >> Found company: �Ｚ���ڼ��񽺾����� (01345812)
+[2025-01-04 20:15:07,427][INFO|DART_crawlling_test1.py:182] >> Found company: �Ｚ�����Ǹ� (00252074)
+[2025-01-04 20:15:07,427][INFO|DART_crawlling_test1.py:182] >> Found company: �����Ｚ�౸�� (00695491)
+[2025-01-04 20:20:15,990][DEBUG|DART_crawlling_test1.py:44] >> Constructed URL: http://dart.fss.or.kr/dsae001/search.ax?textCrpNm=�Ｚ����
+[2025-01-04 20:20:16,141][DEBUG|DART_crawlling_test1.py:48] >> Response status code: 200
+[2025-01-04 20:20:16,143][INFO|DART_crawlling_test1.py:181] >> Fetching data for �Ｚ���� (00126380)
+[2025-01-04 20:20:16,143][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00126380&bsn_tp=D001&page_set=100
+[2025-01-04 20:20:16,239][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:20:16,241][WARNING|DART_crawlling_test1.py:186] >> No data found for �Ｚ���� (00126380)
+[2025-01-04 20:20:16,241][INFO|DART_crawlling_test1.py:181] >> Fetching data for �Ｚ���ڷ����� (00366997)
+[2025-01-04 20:20:16,242][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00366997&bsn_tp=D001&page_set=100
+[2025-01-04 20:20:16,341][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:20:16,341][WARNING|DART_crawlling_test1.py:186] >> No data found for �Ｚ���ڷ����� (00366997)
+[2025-01-04 20:20:16,341][INFO|DART_crawlling_test1.py:181] >> Fetching data for �Ｚ���ڼ��� (00258999)
+[2025-01-04 20:20:16,342][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00258999&bsn_tp=D001&page_set=100
+[2025-01-04 20:20:16,430][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:20:16,430][WARNING|DART_crawlling_test1.py:186] >> No data found for �Ｚ���ڼ��� (00258999)
+[2025-01-04 20:20:16,431][INFO|DART_crawlling_test1.py:181] >> Fetching data for �Ｚ���ڼ��񽺾����� (01345812)
+[2025-01-04 20:20:16,431][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=01345812&bsn_tp=D001&page_set=100
+[2025-01-04 20:20:16,529][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:20:16,529][WARNING|DART_crawlling_test1.py:186] >> No data found for �Ｚ���ڼ��񽺾����� (01345812)
+[2025-01-04 20:20:16,529][INFO|DART_crawlling_test1.py:181] >> Fetching data for �Ｚ�����Ǹ� (00252074)
+[2025-01-04 20:20:16,529][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00252074&bsn_tp=D001&page_set=100
+[2025-01-04 20:20:16,623][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:20:16,623][WARNING|DART_crawlling_test1.py:186] >> No data found for �Ｚ�����Ǹ� (00252074)
+[2025-01-04 20:20:16,623][INFO|DART_crawlling_test1.py:181] >> Fetching data for �����Ｚ�౸�� (00695491)
+[2025-01-04 20:20:16,624][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00695491&bsn_tp=D001&page_set=100
+[2025-01-04 20:20:16,804][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:20:16,804][WARNING|DART_crawlling_test1.py:186] >> No data found for �����Ｚ�౸�� (00695491)
+[2025-01-04 20:21:31,794][DEBUG|DART_crawlling_test1.py:44] >> Constructed URL: http://dart.fss.or.kr/dsae001/search.ax?textCrpNm=�Ｚ����
+[2025-01-04 20:21:31,953][DEBUG|DART_crawlling_test1.py:48] >> Response status code: 200
+[2025-01-04 20:21:31,955][INFO|DART_crawlling_test1.py:181] >> Fetching data for �Ｚ���� (00126380)
+[2025-01-04 20:21:31,955][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00126380&bsn_tp=D001&page_set=100
+[2025-01-04 20:21:32,064][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:21:32,066][WARNING|DART_crawlling_test1.py:186] >> No data found for �Ｚ���� (00126380)
+[2025-01-04 20:21:32,066][INFO|DART_crawlling_test1.py:181] >> Fetching data for �Ｚ���ڷ����� (00366997)
+[2025-01-04 20:21:32,066][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00366997&bsn_tp=D001&page_set=100
+[2025-01-04 20:21:32,161][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:21:32,162][WARNING|DART_crawlling_test1.py:186] >> No data found for �Ｚ���ڷ����� (00366997)
+[2025-01-04 20:21:32,162][INFO|DART_crawlling_test1.py:181] >> Fetching data for �Ｚ���ڼ��� (00258999)
+[2025-01-04 20:21:32,162][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00258999&bsn_tp=D001&page_set=100
+[2025-01-04 20:21:32,254][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:21:32,255][WARNING|DART_crawlling_test1.py:186] >> No data found for �Ｚ���ڼ��� (00258999)
+[2025-01-04 20:21:32,255][INFO|DART_crawlling_test1.py:181] >> Fetching data for �Ｚ���ڼ��񽺾����� (01345812)
+[2025-01-04 20:21:32,255][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=01345812&bsn_tp=D001&page_set=100
+[2025-01-04 20:21:32,347][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:21:32,348][WARNING|DART_crawlling_test1.py:186] >> No data found for �Ｚ���ڼ��񽺾����� (01345812)
+[2025-01-04 20:21:32,348][INFO|DART_crawlling_test1.py:181] >> Fetching data for �Ｚ�����Ǹ� (00252074)
+[2025-01-04 20:21:32,348][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00252074&bsn_tp=D001&page_set=100
+[2025-01-04 20:21:32,439][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:21:32,439][WARNING|DART_crawlling_test1.py:186] >> No data found for �Ｚ�����Ǹ� (00252074)
+[2025-01-04 20:21:32,439][INFO|DART_crawlling_test1.py:181] >> Fetching data for �����Ｚ�౸�� (00695491)
+[2025-01-04 20:21:32,440][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00695491&bsn_tp=D001&page_set=100
+[2025-01-04 20:21:32,550][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:21:32,551][WARNING|DART_crawlling_test1.py:186] >> No data found for �����Ｚ�౸�� (00695491)
+[2025-01-04 20:23:09,048][DEBUG|DART_crawlling_test1.py:44] >> Constructed URL: http://dart.fss.or.kr/dsae001/search.ax?textCrpNm=�Ｚ����
+[2025-01-04 20:23:09,206][DEBUG|DART_crawlling_test1.py:48] >> Response status code: 200
+[2025-01-04 20:23:09,208][INFO|DART_crawlling_test1.py:186] >> Fetching data for �Ｚ���� (00126380)
+[2025-01-04 20:23:09,208][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00126380&bsn_tp=D001&page_set=100
+[2025-01-04 20:23:09,308][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:23:09,310][WARNING|DART_crawlling_test1.py:191] >> No data found for �Ｚ���� (00126380)
+[2025-01-04 20:23:09,311][INFO|DART_crawlling_test1.py:186] >> Fetching data for �Ｚ���ڷ����� (00366997)
+[2025-01-04 20:23:09,311][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00366997&bsn_tp=D001&page_set=100
+[2025-01-04 20:23:09,410][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:23:09,410][WARNING|DART_crawlling_test1.py:191] >> No data found for �Ｚ���ڷ����� (00366997)
+[2025-01-04 20:23:09,410][INFO|DART_crawlling_test1.py:186] >> Fetching data for �Ｚ���ڼ��� (00258999)
+[2025-01-04 20:23:09,411][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00258999&bsn_tp=D001&page_set=100
+[2025-01-04 20:23:09,500][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:23:09,500][WARNING|DART_crawlling_test1.py:191] >> No data found for �Ｚ���ڼ��� (00258999)
+[2025-01-04 20:23:09,501][INFO|DART_crawlling_test1.py:186] >> Fetching data for �Ｚ���ڼ��񽺾����� (01345812)
+[2025-01-04 20:23:09,501][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=01345812&bsn_tp=D001&page_set=100
+[2025-01-04 20:23:09,609][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:23:09,610][WARNING|DART_crawlling_test1.py:191] >> No data found for �Ｚ���ڼ��񽺾����� (01345812)
+[2025-01-04 20:23:09,610][INFO|DART_crawlling_test1.py:186] >> Fetching data for �Ｚ�����Ǹ� (00252074)
+[2025-01-04 20:23:09,610][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00252074&bsn_tp=D001&page_set=100
+[2025-01-04 20:23:09,711][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:23:09,712][WARNING|DART_crawlling_test1.py:191] >> No data found for �Ｚ�����Ǹ� (00252074)
+[2025-01-04 20:23:09,712][INFO|DART_crawlling_test1.py:186] >> Fetching data for �����Ｚ�౸�� (00695491)
+[2025-01-04 20:23:09,712][INFO|DART_crawlling_test1.py:105] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00695491&bsn_tp=D001&page_set=100
+[2025-01-04 20:23:09,807][ERROR|DART_crawlling_test1.py:118] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:23:09,808][WARNING|DART_crawlling_test1.py:191] >> No data found for �����Ｚ�౸�� (00695491)
+[2025-01-04 20:25:48,912][DEBUG|DART_crawlling_test1.py:42] >> Constructed URL: http://dart.fss.or.kr/dsae001/search.ax?textCrpNm=�Ｚ����
+[2025-01-04 20:25:49,070][DEBUG|DART_crawlling_test1.py:44] >> Response status code: 200
+[2025-01-04 20:25:49,072][INFO|DART_crawlling_test1.py:158] >> Fetching data for �Ｚ���� (00126380)
+[2025-01-04 20:25:49,072][INFO|DART_crawlling_test1.py:79] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00126380&bsn_tp=D001&page_set=100
+[2025-01-04 20:25:49,189][ERROR|DART_crawlling_test1.py:93] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:25:49,191][WARNING|DART_crawlling_test1.py:163] >> No data found for �Ｚ���� (00126380)
+[2025-01-04 20:25:49,191][INFO|DART_crawlling_test1.py:158] >> Fetching data for �Ｚ���ڷ����� (00366997)
+[2025-01-04 20:25:49,191][INFO|DART_crawlling_test1.py:79] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00366997&bsn_tp=D001&page_set=100
+[2025-01-04 20:25:49,294][ERROR|DART_crawlling_test1.py:93] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:25:49,294][WARNING|DART_crawlling_test1.py:163] >> No data found for �Ｚ���ڷ����� (00366997)
+[2025-01-04 20:25:49,294][INFO|DART_crawlling_test1.py:158] >> Fetching data for �Ｚ���ڼ��� (00258999)
+[2025-01-04 20:25:49,294][INFO|DART_crawlling_test1.py:79] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00258999&bsn_tp=D001&page_set=100
+[2025-01-04 20:25:49,394][ERROR|DART_crawlling_test1.py:93] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:25:49,395][WARNING|DART_crawlling_test1.py:163] >> No data found for �Ｚ���ڼ��� (00258999)
+[2025-01-04 20:25:49,395][INFO|DART_crawlling_test1.py:158] >> Fetching data for �Ｚ���ڼ��񽺾����� (01345812)
+[2025-01-04 20:25:49,395][INFO|DART_crawlling_test1.py:79] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=01345812&bsn_tp=D001&page_set=100
+[2025-01-04 20:25:49,488][ERROR|DART_crawlling_test1.py:93] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:25:49,488][WARNING|DART_crawlling_test1.py:163] >> No data found for �Ｚ���ڼ��񽺾����� (01345812)
+[2025-01-04 20:25:49,489][INFO|DART_crawlling_test1.py:158] >> Fetching data for �Ｚ�����Ǹ� (00252074)
+[2025-01-04 20:25:49,489][INFO|DART_crawlling_test1.py:79] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00252074&bsn_tp=D001&page_set=100
+[2025-01-04 20:25:49,588][ERROR|DART_crawlling_test1.py:93] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:25:49,588][WARNING|DART_crawlling_test1.py:163] >> No data found for �Ｚ�����Ǹ� (00252074)
+[2025-01-04 20:25:49,588][INFO|DART_crawlling_test1.py:158] >> Fetching data for �����Ｚ�౸�� (00695491)
+[2025-01-04 20:25:49,588][INFO|DART_crawlling_test1.py:79] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00695491&bsn_tp=D001&page_set=100
+[2025-01-04 20:25:49,686][ERROR|DART_crawlling_test1.py:93] >> JSON decode error: Expecting value: line 1 column 1 (char 0)
+[2025-01-04 20:25:49,687][WARNING|DART_crawlling_test1.py:163] >> No data found for �����Ｚ�౸�� (00695491)
+[2025-01-04 20:28:24,915][DEBUG|DART_crawlling_test1.py:40] >> Constructed URL: http://dart.fss.or.kr/dsae001/search.ax?textCrpNm=삼성전자
+[2025-01-04 20:28:25,088][DEBUG|DART_crawlling_test1.py:42] >> Response status code: 200
+[2025-01-04 20:28:25,090][INFO|DART_crawlling_test1.py:158] >> Fetching data for 삼성전자 (00126380)
+[2025-01-04 20:28:25,090][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00126380&bsn_tp=D001&page_set=100
+[2025-01-04 20:28:25,190][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:28:25,195][WARNING|DART_crawlling_test1.py:163] >> No data found for 삼성전자 (00126380)
+[2025-01-04 20:28:25,196][INFO|DART_crawlling_test1.py:158] >> Fetching data for 삼성전자로지텍 (00366997)
+[2025-01-04 20:28:25,196][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00366997&bsn_tp=D001&page_set=100
+[2025-01-04 20:28:25,293][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:28:25,296][WARNING|DART_crawlling_test1.py:163] >> No data found for 삼성전자로지텍 (00366997)
+[2025-01-04 20:28:25,296][INFO|DART_crawlling_test1.py:158] >> Fetching data for 삼성전자서비스 (00258999)
+[2025-01-04 20:28:25,296][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00258999&bsn_tp=D001&page_set=100
+[2025-01-04 20:28:25,387][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:28:25,390][WARNING|DART_crawlling_test1.py:163] >> No data found for 삼성전자서비스 (00258999)
+[2025-01-04 20:28:25,390][INFO|DART_crawlling_test1.py:158] >> Fetching data for 삼성전자서비스씨에스 (01345812)
+[2025-01-04 20:28:25,391][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=01345812&bsn_tp=D001&page_set=100
+[2025-01-04 20:28:25,489][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:28:25,492][WARNING|DART_crawlling_test1.py:163] >> No data found for 삼성전자서비스씨에스 (01345812)
+[2025-01-04 20:28:25,492][INFO|DART_crawlling_test1.py:158] >> Fetching data for 삼성전자판매 (00252074)
+[2025-01-04 20:28:25,492][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00252074&bsn_tp=D001&page_set=100
+[2025-01-04 20:28:25,583][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:28:25,586][WARNING|DART_crawlling_test1.py:163] >> No data found for 삼성전자판매 (00252074)
+[2025-01-04 20:28:25,586][INFO|DART_crawlling_test1.py:158] >> Fetching data for 수원삼성축구단 (00695491)
+[2025-01-04 20:28:25,586][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00695491&bsn_tp=D001&page_set=100
+[2025-01-04 20:28:25,696][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:28:25,700][WARNING|DART_crawlling_test1.py:163] >> No data found for 수원삼성축구단 (00695491)
+[2025-01-04 20:30:53,239][DEBUG|DART_crawlling_test1.py:40] >> Constructed URL: http://dart.fss.or.kr/dsae001/search.ax?textCrpNm=삼성전자
+[2025-01-04 20:30:53,389][DEBUG|DART_crawlling_test1.py:42] >> Response status code: 200
+[2025-01-04 20:30:53,393][INFO|DART_crawlling_test1.py:158] >> Fetching data for 삼성전자 (00126380)
+[2025-01-04 20:30:53,393][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00126380&bsn_tp=D001&page_set=100
+[2025-01-04 20:30:53,489][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:30:53,494][WARNING|DART_crawlling_test1.py:163] >> No data found for 삼성전자 (00126380)
+[2025-01-04 20:30:53,494][INFO|DART_crawlling_test1.py:158] >> Fetching data for 삼성전자로지텍 (00366997)
+[2025-01-04 20:30:53,495][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00366997&bsn_tp=D001&page_set=100
+[2025-01-04 20:30:53,594][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:30:53,598][WARNING|DART_crawlling_test1.py:163] >> No data found for 삼성전자로지텍 (00366997)
+[2025-01-04 20:30:53,598][INFO|DART_crawlling_test1.py:158] >> Fetching data for 삼성전자서비스 (00258999)
+[2025-01-04 20:30:53,598][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00258999&bsn_tp=D001&page_set=100
+[2025-01-04 20:30:53,703][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:30:53,706][WARNING|DART_crawlling_test1.py:163] >> No data found for 삼성전자서비스 (00258999)
+[2025-01-04 20:30:53,706][INFO|DART_crawlling_test1.py:158] >> Fetching data for 삼성전자서비스씨에스 (01345812)
+[2025-01-04 20:30:53,706][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=01345812&bsn_tp=D001&page_set=100
+[2025-01-04 20:30:53,796][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:30:53,799][WARNING|DART_crawlling_test1.py:163] >> No data found for 삼성전자서비스씨에스 (01345812)
+[2025-01-04 20:30:53,799][INFO|DART_crawlling_test1.py:158] >> Fetching data for 삼성전자판매 (00252074)
+[2025-01-04 20:30:53,800][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00252074&bsn_tp=D001&page_set=100
+[2025-01-04 20:30:53,894][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:30:53,897][WARNING|DART_crawlling_test1.py:163] >> No data found for 삼성전자판매 (00252074)
+[2025-01-04 20:30:53,897][INFO|DART_crawlling_test1.py:158] >> Fetching data for 수원삼성축구단 (00695491)
+[2025-01-04 20:30:53,897][INFO|DART_crawlling_test1.py:77] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00695491&bsn_tp=D001&page_set=100
+[2025-01-04 20:30:53,981][ERROR|DART_crawlling_test1.py:86] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:30:53,985][WARNING|DART_crawlling_test1.py:163] >> No data found for 수원삼성축구단 (00695491)
+[2025-01-04 20:32:26,600][DEBUG|DART_crawlling_test1.py:43] >> Constructed URL: http://dart.fss.or.kr/dsae001/search.ax?textCrpNm=삼성전자
+[2025-01-04 20:32:26,758][DEBUG|DART_crawlling_test1.py:45] >> Response status code: 200
+[2025-01-04 20:32:26,761][INFO|DART_crawlling_test1.py:161] >> Fetching data for 삼성전자 (00126380)
+[2025-01-04 20:32:26,761][INFO|DART_crawlling_test1.py:80] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00126380&bsn_tp=D001&page_set=100
+[2025-01-04 20:32:26,854][ERROR|DART_crawlling_test1.py:89] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:32:26,858][INFO|DART_crawlling_test1.py:161] >> Fetching data for 삼성전자로지텍 (00366997)
+[2025-01-04 20:32:26,859][INFO|DART_crawlling_test1.py:80] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00366997&bsn_tp=D001&page_set=100
+[2025-01-04 20:32:26,963][ERROR|DART_crawlling_test1.py:89] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:32:26,965][INFO|DART_crawlling_test1.py:161] >> Fetching data for 삼성전자서비스 (00258999)
+[2025-01-04 20:32:26,966][INFO|DART_crawlling_test1.py:80] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00258999&bsn_tp=D001&page_set=100
+[2025-01-04 20:32:27,054][ERROR|DART_crawlling_test1.py:89] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:32:27,057][INFO|DART_crawlling_test1.py:161] >> Fetching data for 삼성전자서비스씨에스 (01345812)
+[2025-01-04 20:32:27,057][INFO|DART_crawlling_test1.py:80] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=01345812&bsn_tp=D001&page_set=100
+[2025-01-04 20:32:27,152][ERROR|DART_crawlling_test1.py:89] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:32:27,155][INFO|DART_crawlling_test1.py:161] >> Fetching data for 삼성전자판매 (00252074)
+[2025-01-04 20:32:27,155][INFO|DART_crawlling_test1.py:80] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00252074&bsn_tp=D001&page_set=100
+[2025-01-04 20:32:27,260][ERROR|DART_crawlling_test1.py:89] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
+[2025-01-04 20:32:27,263][INFO|DART_crawlling_test1.py:161] >> Fetching data for 수원삼성축구단 (00695491)
+[2025-01-04 20:32:27,263][INFO|DART_crawlling_test1.py:80] >> Requesting data from: http://dart.fss.or.kr/api/search.json?auth=2793c614ecaf8467a0f2e18e3268332f701237e0&start_dt=20050101&crp_cd=00695491&bsn_tp=D001&page_set=100
+[2025-01-04 20:32:27,364][ERROR|DART_crawlling_test1.py:89] >> Non-JSON response received: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>DARTìì¤í</title>
+<style>
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:"ë§ì ê³ ë", "Malgun Gothic", sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-Y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link {text-decoration:none;color:#333;}
+table td span a {text-decoration:none;color:#333;}
+table td a:visited {text-decoration:none;color:#cd0093;}
+.tbWideList th a.second:visited{text-decoration:none;color:#cd0093;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+body {background: var(--bgColor);}
+
+.errorWrap {margin:0 auto;margin-top:5%;width:650px;position:relative;}
+.errorWrap .top {margin-bottom:20px;display:block;}
+.errorWrap .top .logo {margin-top:24px;width:120px;height:32px;background:url(https://dart.fss.or.kr/images/header_logo.png) no-repeat;background-size:100%;display:block;cursor:pointer;font-size:0;}
+.errorWrap .contWrap {width:100%;padding:20px 50px 30px 50px;background:#fff;position:relative;border:5px solid #ccc;display:block;clear:both;}
+.errorWrap .contWrap .imgError {margin:0 auto;margin-bottom:0;width:260px;height:190px;padding:0;background:url(https://dart.fss.or.kr/images/icon_error.png) no-repeat center top;background-size:100%;display:block;}
+.errorWrap .contWrap .infoWrap {padding:20px 30px 30px 30px;line-height:180%;border:1px solid #e1e1e1;border-radius:5px;}
+.errorWrap .contWrap .alert {padding:0;font-size:20px;color:#0000ff;font-weight:900;line-height:170%;padding-bottom:20px;text-align:center;}
+.errorWrap .contWrap .info {margin-top:0;color:#555;line-height:170%;padding-bottom:10px;}
+.errorWrap .contWrap .info.mB10 {margin-bottom:10px;}
+.errorWrap .contWrap .info .app {margin-left:20px;color:#3261cd;font-size:13px;line-height:200%;letter-spacing:-1px;}
+.errorWrap .contWrap .btnLG {margin:auto;margin-top:20px;width:170px;height:24px;padding:6px 0 0 0;background:#aaa;border:1px solid rgba(0,0,0,0.15);border-radius:2px;display:block;color:#fff;font-size:14px;font-weight:700;text-align:center;cursor:pointer;}
+.errorWrap .footerWrap {padding:20px 0 20px 0;color:#777;line-height:170%;font-size:12px;text-align:center;}
+
+@media (max-width:760px) {
+.errorWrap {margin-top:0%;width:100%;padding:0 20px 0 20px;}
+.errorWrap .top .logo {width:104px;}
+.errorWrap .contWrap {padding:10px 20px 20px 20px;}
+.errorWrap .contWrap .imgError {width:180px;height:130px;}
+.errorWrap .contWrap .infoWrap {padding:20px 0 20px 0;border:0px solid #e1e1e1;font-size:12px;}
+.errorWrap .contWrap .alert {font-size:15px;}
+.errorWrap .contWrap .btnLG {margin-top:0;height:28px;font-size:13px;}
+.errorWrap .footerWrap {padding:20px 0 0 0;font-size:11px;}
+}
+</style>
+</head>
+
+<body>
+	<!-- cont -->
+	<div class="cont">
+		<!-- error -->
+		<div class="errorWrap">
+			<!-- header -->
+			<div class="top">
+				<a href="https://dart.fss.or.kr"><h1 class="logo" title="íì¼ë¡ ê°ê¸°">íì¼ë¡ ê°ê¸°</h1></a>
+			</div>
+
+			<!-- contWrap -->
+			<div class="contWrap"> 
+				<div class="imgError"></div>
+				<div class="infoWrap">
+					<p class="alert">ìë¹ì¤ ì´ì©ì ë¶í¸ì ëë ¤ ì£ì¡í©ëë¤.</p>
+					<p class="info">ìì²­íì  ì¸í°ë·ì£¼ì(URL)ì ì°¾ì ì ììµëë¤.</p>
+					<p class="info mB10">ì°¾ì¼ìë URLì´ ë³ê²½ëìê±°ë, ì­ì ëìì ì ììµëë¤. URLì´ ìëª» ìë ¥ëìëì§ ë¤ì íë² íì¸í´ ë³´ìê¸° ë°ëëë¤.</p>
+					<p class="info">URLì´ ì ííë¤ë©´ ì ìíì ë¤ì ì°ê²°ì ìëí´ ë³´ìê¸° ë°ë¼ë©° ê³ì ê°ì íìì´ ë°ìíë¤ë©´, ê¸ìµê°ëì(dart@fss.or.kr)ì¼ë¡ ì°ë½ì ì£¼ìê¸° ë°ëëë¤.</p>
+				</div>
+					<a class="btnLG" target="_top" href="https://dart.fss.or.kr">DART ë©ì¸íë©´ ë°ë¡ê°ê¸°</a>
+			</div>
+
+			<!-- footerWrap -->
+			<div class="footerWrap">Copyright â Financial supervisory service. All rights reserved.</div> 
+		</div>
+		<!-- //error -->
+	</div>
+	<!-- //cont -->
+</body>
+</html>
