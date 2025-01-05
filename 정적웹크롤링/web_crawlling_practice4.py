@@ -1,7 +1,12 @@
+# 이미지 추출. 이미지 주소 src를 갖고 있는 html을 이용
+
 # requests와 beautifulsoup를 이용, 추출 방법
 # 크롬 개발자도구에서 커서 모양의 아이콘을 클릭 -> 추출을 원하는 부분을 클릭 -> 해당 부분의 HTML 태그 및 속성을 (ex. a와 href)를 분석하여 select( ) 함수로 추출
 # 네이버 뉴스에서 태그 및 속성(attrs)는: "a.news_tit" 임.
 
+# src주소를 news_thumnail 변수에 저장 -> 이미지 다운로드를 위해서 해당 주소들을 리스트(link_thumnail)에 append 함수 이용해 하나씩 담기.
+# 사진을 다운로드 받아서 내 PC에 저장하기 위해서는 저장할 폴더를 만들고, src 주소를 이용해 다운로드 
+# 폴더 생성에는 os 모듈과 urllib.request 패키지의 urlretrieve 함수가 필요. 모두 다 파이썬 내장 라이브러리이므로 설치 필요X. import 하면 됨.
 
 # 1. improt로 패키지 불러오기
 
@@ -26,17 +31,32 @@ html_text = response.text
 
 soup = bs(response.text, 'html.parser')
 
-# 6. "news_titles"라는 변수에 제목 해당되는 html을 지정. 그 후 '.get_text()' 함수를 이용해 제목을 추출한다.
+# 6. 뉴스 썸네일 이미지 추출
 
-news_titles = soup.select("a.news_tit")
+news_content_div = soup.select(".news_contents")
 
-for i in news_titles:
-    title = i.get_text()
-    print(title)
+news_thumbnail = [thumbnail.select_one(".thumb") for thumbnail in news_content_div]
 
-# 7.뉴스 하이퍼링크 추출. '.atters['href']'함수를 이용. 
+link_thumbnail = []
 
-for i in news_titles:
-    href = i.attrs['href']
-    print(href)
+for img in news_thumbnail:
+    if img is  not  None  and  'data-lazysrc'  in img.attrs:
+        link_thumbnail.append(img.attrs['data-lazysrc'])
 
+# 이미지 저장할 폴더 생성
+import os
+
+# path_folder의 경로로 저장할 폴더의 경로를 적어줄 것 (ex.img_download)
+path_folder = '/Users/byeonseongjun/Desktop/img_download/'
+
+if not os.path.isdir(path_folder):
+    os.mkdir(path_folder)
+
+# 이미지 다운로드
+from urllib.request import urlretrieve
+
+i = 0
+
+for link in link_thumbnail:          
+    i += 1
+    urlretrieve(link, path_folder + f'{i}.jpg')
