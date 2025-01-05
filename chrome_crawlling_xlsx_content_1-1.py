@@ -9,6 +9,7 @@ import os
 from readability import Document
 
 
+
 # Desktop 경로 설정
 desktop = os.path.join(os.path.expanduser('~'), 'Desktop')
 print(desktop)
