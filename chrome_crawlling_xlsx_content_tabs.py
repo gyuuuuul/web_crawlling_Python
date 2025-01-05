@@ -7,6 +7,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import os
 
+
 # Desktop 경로 설정
 desktop = os.path.join(os.path.expanduser('~'), 'Desktop')
 print(desktop)
