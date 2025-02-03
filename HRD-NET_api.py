@@ -90,7 +90,6 @@ def fetch_training_data(auth_key, request_url, category_name):
                 "훈련 시작일자": training.get("traStartDate", "N/A"),
                 "훈련 종료일자": tra_end_date,
                 "훈련 종료 연도": tra_end_year,
-                "훈련시간": training.get("trngHour", training.get("trainingHours", "N/A")),
                 "NCS 코드": "조회 중...",
                 "NCS 명": "조회 중...",
                 "NCS 여부": "조회 중..."
