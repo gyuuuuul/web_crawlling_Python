@@ -2,6 +2,7 @@ import requests
 import time
 import pandas as pd
 import os
+import xml.etree.ElementTree as ET  # ✅ XML 파싱을 위한 라이브러리
 
 # 바탕화면 경로 설정
 desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
@@ -36,16 +37,21 @@ start_date = input("검색할 훈련 시작일을 입력하세요 (예: 20230101
 end_date = input("검색할 훈련 종료일을 입력하세요 (예: 20231231): ")
 
 # 한 페이지당 출력 개수 설정
-page_size = 50
+page_size = 100
 
-# ✅ 훈련 과정 조회 함수
+# ✅ XML 데이터 파싱 함수
+def parse_xml(xml_text):
+    root = ET.fromstring(xml_text)
+    return root
+
+# ✅ 훈련 과정 조회 함수 (XML)
 def fetch_training_data(auth_key, request_url, category_name):
     results = []
     page_num = 1
     while True:
         params = {
             "authKey": auth_key,
-            "returnType": "JSON",
+            "returnType": "XML",  # ✅ XML 응답으로 변경
             "outType": "1",
             "pageNum": str(page_num),
             "pageSize": str(page_size),
@@ -62,37 +68,29 @@ def fetch_training_data(auth_key, request_url, category_name):
             break
 
         try:
-            data = response.json()
-        except requests.exceptions.JSONDecodeError:
+            root = parse_xml(response.text)
+        except ET.ParseError:
             break
 
-        if "srchList" not in data or not data["srchList"]:
+        scn_list = root.findall(".//scn_list")  # ✅ XML에서 scn_list 요소 찾기
+        if not scn_list:
             break
 
-        for training in data["srchList"]:
-            reg_course_man = int(training.get("regCourseMan", 0) or 0)
-            real_man = int(training.get("realMan", 0) or 0)
-            revenue = reg_course_man * real_man
-            tra_end_date = training.get("traEndDate", "N/A")
-            tra_end_year = tra_end_date[:4] if tra_end_date != "N/A" else "N/A"
-
+        for training in scn_list:
             results.append({
                 "카테고리": category_name,
-                "훈련기관 코드": training.get("instCd", "N/A"),
-                "과정명": training.get("title", "N/A"),
-                "훈련 과정 ID": training.get("trprId", "N/A"),
-                "훈련 과정 순차": training.get("trprDegr", "N/A"),
-                "정원": training.get("yardMan", "N/A"),
-                "수강 신청 인원": reg_course_man,
-                "수강비": training.get("courseMan", "N/A"),
-                "실제 수강비": real_man,
-                "매출액": revenue,
-                "훈련 시작일자": training.get("traStartDate", "N/A"),
-                "훈련 종료일자": tra_end_date,
-                "훈련 종료 연도": tra_end_year,
-                "NCS 코드": "조회 중...",
-                "NCS 명": "조회 중...",
-                "NCS 여부": "조회 중..."
+                "훈련기관 코드": training.findtext("instCd", "N/A"),
+                "과정명": training.findtext("title", "N/A"),
+                "훈련 과정 ID": training.findtext("trprId", "N/A"),
+                "훈련 과정 순차": training.findtext("trprDegr", "N/A"),
+                "정원": training.findtext("yardMan", "N/A"),
+                "수강 신청 인원": training.findtext("regCourseMan", "0"),
+                "수강비": training.findtext("courseMan", "N/A"),
+                "실제 수강비": training.findtext("realMan", "N/A"),
+                "매출액": int(training.findtext("regCourseMan", "0")) * int(training.findtext("realMan", "0")),
+                "훈련 시작일자": training.findtext("traStartDate", "N/A"),
+                "훈련 종료일자": training.findtext("traEndDate", "N/A"),
+                "훈련 종료 연도": training.findtext("traEndDate", "N/A")[:4] if training.findtext("traEndDate", "N/A") != "N/A" else "N/A"
             })
 
         page_num += 1
@@ -100,7 +98,7 @@ def fetch_training_data(auth_key, request_url, category_name):
 
     return results
 
-# ✅ 훈련 과정 상세 정보 조회 함수
+# ✅ 훈련 과정 상세 정보 조회 함수 (시설 정보 + 장비 정보 포함)
 def fetch_course_info(training_data, auth_key, category_name):
     """각 훈련 유형에 대한 상세 정보를 조회하여 추가 정보를 포함"""
     results = []
@@ -120,14 +118,21 @@ def fetch_course_info(training_data, auth_key, category_name):
                 "총 훈련일수": "N/A",
                 "총 훈련시간": "N/A",
                 "시설 면적(㎡)": "N/A",
-                "인원 수(명)": "N/A"
+                "시설 수": "N/A",
+                "인원 수(명)": "N/A",
+                "시설명": "N/A",
+                "훈련기관 ID": "N/A",
+                "등록훈련기관명": "N/A",
+                "장비명": "N/A",
+                "보유 수량": "N/A",
+                "장비 등록훈련기관": "N/A"
             })
             results.append(course)
             continue
 
         params = {
             "authKey": auth_key,
-            "returnType": "JSON",
+            "returnType": "XML",  # ✅ XML 응답으로 변경
             "outType": "2",
             "srchTrprId": trpr_id,
             "srchTrprDegr": trpr_degr,
@@ -138,23 +143,55 @@ def fetch_course_info(training_data, auth_key, category_name):
 
         if response.status_code == 200:
             try:
-                data = response.json()
-                course.update({
-                    "NCS 코드": data.get("inst_base_info", {}).get("ncsCd", "N/A"),
-                    "NCS 명": data.get("inst_base_info", {}).get("ncsNm", "N/A"),
-                    "NCS 여부": data.get("inst_base_info", {}).get("ncsYn", "N/A"),
-                    "정부지원금": data.get("inst_base_info", {}).get("perTrco", "N/A"),
-                    "총 훈련일수": data.get("inst_base_info", {}).get("trDcnt", "N/A"),
-                    "총 훈련시간": data.get("inst_detail_info", {}).get("totTraingTime", "N/A"),
-                    "시설 면적(㎡)": data.get("inst_facility_detail_info_list", [{}])[0].get("fcltyArCn", "N/A"),
-                    "인원 수(명)": data.get("inst_facility_detail_info_list", [{}])[0].get("ocuAcptnNmprCn", "N/A")
-                })
-            except requests.exceptions.JSONDecodeError:
+                root = ET.fromstring(response.text)  # ✅ XML 파싱
+
+                # ✅ NCS 정보
+                inst_base_info = root.find(".//inst_base_info")
+                if inst_base_info is not None:
+                    course.update({
+                        "NCS 코드": inst_base_info.findtext("ncsCd", "N/A"),
+                        "NCS 명": inst_base_info.findtext("ncsNm", "N/A"),
+                        "NCS 여부": inst_base_info.findtext("ncsYn", "N/A"),
+                        "정부지원금": inst_base_info.findtext("perTrco", "N/A"),
+                        "총 훈련일수": inst_base_info.findtext("trDcnt", "N/A")
+                    })
+
+                # ✅ 상세 훈련 시간
+                inst_detail_info = root.find(".//inst_detail_info")
+                if inst_detail_info is not None:
+                    course.update({
+                        "총 훈련시간": inst_detail_info.findtext("totTraingTime", "N/A")
+                    })
+
+                # ✅ 시설 상세 정보 (inst_facility_info)
+                inst_facility_info = root.find(".//inst_facility_info_list")
+                if inst_facility_info is not None:
+                    course.update({
+                        "시설 면적(㎡)": inst_facility_info.findtext("fcltyArCn", "N/A"),
+                        "시설 수": inst_facility_info.findtext("holdQy", "N/A"),
+                        "인원 수(명)": inst_facility_info.findtext("ocuAcptnNmprCn", "N/A"),
+                        "시설명": inst_facility_info.findtext("trafcltyNm", "N/A"),
+                        "훈련기관 ID": inst_facility_info.findtext("cstmrId", "N/A"),
+                        "등록훈련기관명": inst_facility_info.findtext("cstmrNm", "N/A")
+                    })
+
+                # ✅ 장비 상세 정보 (inst_eqmn_info)
+                inst_eqmn_info = root.find(".//inst_eqmn_info_list")
+                if inst_eqmn_info is not None:
+                    course.update({
+                        "장비명": inst_eqmn_info.findtext("eqpmnNm", "N/A"),
+                        "보유 수량": inst_eqmn_info.findtext("holdQy", "N/A"),
+                        "장비 등록훈련기관": inst_eqmn_info.findtext("cstmrNm", "N/A")
+                    })
+
+            except ET.ParseError:
                 pass
+
         results.append(course)
         time.sleep(0.3)
 
     return results
+
 
 # ✅ API 호출 실행
 final_results = []
