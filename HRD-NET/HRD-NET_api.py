@@ -98,7 +98,7 @@ def fetch_training_data(auth_key, request_url, category_name):
             })
 
         page_num += 1
-        time.sleep(0.2)
+        # time.sleep(0.2)
 
     return results
 
@@ -189,7 +189,7 @@ def fetch_course_info(training_data, auth_key, category_name):
                 pass
 
         results.append(course)
-        time.sleep(0.2)
+        # time.sleep(0.2)
 
     return results
 
