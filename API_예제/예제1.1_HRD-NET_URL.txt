@@ -1,0 +1,1 @@
+https://www.work24.go.kr/cm/openApi/call/hr/callOpenApiSvcInfo310L01.do?authKey=9f166e67-b76e-49f2-a34b-5e93e71e3cf6&returnType=XML&outType=1&pageNum=1&pageSize=20&srchTraStDt=20251001&srchTraEndDt=20251231&srchTraArea1=11&sort=ASC&sortCol=TOT_FXNUM
